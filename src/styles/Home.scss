@@ -1,0 +1,56 @@
+.containerApp {
+  height: 99vh;
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 3rem;
+    .GifContainer {
+      width: 100%;
+      .gif {
+        width: auto;
+        height: 300px;
+        border-radius: 10px;
+      }
+    }
+    .containerText {
+      font-size: 40px;
+      font-weight: 700;
+    }
+    .containerButtons {
+      width: 100%;
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+
+      .SI {
+        background-image: url("https://img.freepik.com/vector-premium/fondo-corazones-confeti-diferentes-colores-san-valentin-patron-costuras_175838-3389.jpg?size=338&ext=jpg&ga=GA1.1.87170709.1707091200&semt=ais");
+        padding: 1rem;
+        font-size: 24px;
+        font-weight: 700;
+        color: palevioletred;
+        cursor: pointer;
+        border: solid palevioletred;
+        border-radius: 10px;
+        padding: 1rem;
+      }
+      .NO {
+        background-image: url("https://img.freepik.com/vector-gratis/gotas-lluvia-sobre-fondo-negro_1017-33594.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707091200&semt=ais");
+        padding: 1rem;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        padding: 1rem;
+      }
+    }
+
+    .TextSi {
+      font-size: 20px;
+    }
+  }
+}
