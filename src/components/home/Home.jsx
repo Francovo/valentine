@@ -74,9 +74,7 @@ const Home = () => {
                 padding: "1rem",
               }}
             >
-              Me encantas
-              <br />
-              <p className="TextSi">Prometo ser el mejor Valentine</p>
+              I love You
             </div>
           </>
         )}
